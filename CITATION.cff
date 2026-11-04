@@ -15,13 +15,12 @@ title: Web Mining and Applied NLP 03 Text Exploration
 date-released: "2026-03-20"
 
 authors:
-  - family-names: Case
-    given-names: Denise M.
-    orcid: "https://orcid.org/0000-0001-6165-7389"
+  - family-names: Heyert
+    given-names: Alexanndra J.
     affiliation: "Northwest Missouri State University, USA"
 
-repository-code: "https://github.com/denisecase/nlp-03-text-exploration"
-url: "https://github.com/denisecase/nlp-03-text-exploration"
+repository-code: "https://github.com/ajaneh/nlp-03-text-exploration-context"
+url: "https://github.com/ajaneh/nlp-03-text-exploration-context"
 license: MIT
 
 abstract: |

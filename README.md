@@ -1,30 +1,26 @@
-# nlp-03-text-exploration
+# nlp-03-text-exploration-context
 
 [![Python 3.14](https://img.shields.io/badge/python-3.14%2B-blue?logo=python)](pyproject.toml)
-[![CI](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml)
-[![Documentation](https://img.shields.io/badge/docs-site-blue?logo=github)](https://denisecase.github.io/nlp-03-text-exploration/)
+[![CI](https://github.com/ajaneh/nlp-03-text-exploration-context/actions/workflows/ci-python-zensical.yml/badge.svg)](https://github.com/ajaneh/nlp-03-text-exploration-context/actions/workflows/ci-python-zensical.yml)
 
 [![uv managed](https://img.shields.io/badge/uv-managed-DE5FE9)](https://docs.astral.sh/uv/)
 [![ty type checked](https://img.shields.io/badge/ty-type_checked-2F80ED)](https://docs.astral.sh/ty/)
 [![Zensical docs](https://img.shields.io/badge/Zensical-docs-purple)](https://zensical.org/)
 [![MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-> Explore text corpora using token frequencies, categories, and contextual patterns.
+> Explore a labeled text corpus using token frequencies, category comparisons, and contextual patterns.
 
 ## Project Overview
 
-Author: Denise Case
+Author: Alex Heyert
 
-Date: 2026 October
+Date: 2026-11
 
-Third project in the Web Mining and Applied NLP course.
+This project explores a TODO:
+ small, labeled text corpus with Python and Polars.
 
-This project introduces exploratory text analysis.
-
-The goal is to examine a collection of text documents,
-identify patterns in vocabulary,
-compare categories,
-and explore relationships between words.
+It examines vocabulary patterns, compares document categories,
+and explores word relationships through co-occurrence and bigrams.
 
 These techniques provide foundations for understanding
 more advanced NLP methods, including
@@ -95,25 +91,7 @@ so the script can continue executing.
 
 ## Results
 
-The analysis produces frequency distributions,
-category comparisons, co-occurrence information,
-and bigram frequencies.
-
-The results demonstrate how vocabulary and
-word proximity reveal patterns within a corpus.
-
-Successful execution produces:
-
-```shell
-========================
-Pipeline executed successfully!
-========================
-```
-
-A `project.log` file is created in the project root.
-
-This confirms that the Python analysis executes
-and the logging system works.
+TODO
 
 ## Verification
 
@@ -125,12 +103,9 @@ uv run python -m pytest
 
 ## Project Documentation
 
-The [hosted documentation site](https://denisecase.github.io/nlp-03-text-exploration/)
-is published using Zensical and GitHub Pages.
+Project documentation is in the [docs/](docs/) directory and is built using Zensical.
 
-The documentation site is used to present the project report,
-covering such sections as data, methods, results, visualizations,
-interpretation, and conclusions.
+Published documentation URL: TODO
 
 ## CI/CD and GitHub Actions
 
@@ -139,8 +114,8 @@ to check project files and publish the docs.
 
 GitHub Actions include:
 
-- [CI: Python and Documentation Checks](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/ci-python-zensical.yml)
-- [CD: Documentation Deployment](https://github.com/denisecase/nlp-03-text-exploration/actions/workflows/deploy-zensical.yml)
+- [CI: Python and Documentation Checks](https://github.com/ajaneh/nlp-03-text-exploration-context/actions/workflows/ci-python-zensical.yml)
+- [CD: Documentation Deployment](https://github.com/ajaneh/nlp-03-text-exploration-context/actions/workflows/deploy-zensical.yml)
 
 ## Developer Reference
 
@@ -225,7 +200,8 @@ testing, documentation, and code quality.
 
 ## Links
 
-- [Hosted Documentation](https://denisecase.github.io/nlp-03-text-exploration/)
+- [Documentation source](docs/)
+- [GitHub Repository](https://github.com/ajaneh/nlp-03-text-exploration-context)
 - [Professional Python Workflow Guide](https://denisecase.github.io/pro-analytics-02/)
 - [Citation](CITATION.cff)
 - [License](LICENSE)

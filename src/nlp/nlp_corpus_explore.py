@@ -1,5 +1,6 @@
 """nlp_corpus_explore.py - Module 3 Script.
 
+2026-11 Alex Heyert
 Purpose
 
   Perform exploratory analysis of a small, controlled text corpus.

@@ -1,6 +1,7 @@
 """NLP package.
 
 This file can be left empty; it just has to exist.
+2026-11 Alex Heyert
 
 By adding a file named __init__.py to a folder,
 we tell Python the directory is a package
