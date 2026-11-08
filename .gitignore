@@ -117,6 +117,8 @@ PRIVATE_NOTES.md
 # appropriate to include in the repository.
 /refs/
 
+# Dont upload data file
+data/
 
 # === Operating-system files ===
 

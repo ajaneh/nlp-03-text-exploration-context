@@ -31,26 +31,17 @@ The project is configured in
 
 ## Data
 
-The example uses a small, controlled text corpus
-defined directly in the Python script.
-
-The corpus contains 22 short documents
-organized into four categories:
-
-- Dogs.
-- Cats.
-- Cars.
-- Trucks.
-
-Each document includes a category label
-and a short text passage.
-
-No external input dataset or web connection is required.
+I used ChatGPT to create a CSV corpus of incoming job-related emails from two linked Gmail inboxes, searching messages dated September 1, 2025, through November 8, 2026. The CSV contains 202 messages which are categorized as:
+- application acknowledgements
+- rejections
+- interview invitations
+- process updates
+- job offers.
+ChatGPT removed detected personal names and contact details while retaining company names. This curated corpus is not a complete application history or a count of unique jobs. The datafile is not committed to protect privacy. I realize it's ironic that ChatGPT used NLP to categorize the email message text, but classification is not the goal.
 
 ## Approach
 
-The project uses Python and Polars
-to explore patterns in a labeled text corpus.
+The project uses Python and Polars to explore patterns in job correspondence. Most rejection emails sound the same, so I'm exploring how similar (or different) the email language is.
 
 The example demonstrates:
 
@@ -83,7 +74,7 @@ to set up your machine and project environment.
 From a VS Code terminal in the project root:
 
 ```shell
-uv run python -m nlp.nlp_corpus_explore
+uv run python -m nlp.nlp_corpus_heyert
 ```
 
 Close each visualization window after viewing
