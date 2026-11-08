@@ -284,6 +284,7 @@ plt.ylabel("Frequency")
 # Adjust the layout of the plot to prevent overlap and ensure everything fits well.
 plt.tight_layout()
 
+plt.savefig(OUTPUT_PATH / "rejected_tokens.png")
 # Display the plot on the screen.
 # The execution of the script will pause until the plot window is closed.
 plt.show()
