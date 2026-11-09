@@ -46,6 +46,7 @@ dependencies = [
 #      and documenting the project without becoming runtime dependencies.
 
 dev = [
+    "ipykernel>=7.4.0",
     # REQ.DEV.DEPS: Standard tools for Python development and validation.
     "pytest",     # WHY: Run automated tests.
     "pytest-cov", # WHY: Measure and report test coverage.

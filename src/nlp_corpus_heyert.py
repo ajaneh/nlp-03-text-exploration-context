@@ -275,9 +275,7 @@ ax = plt.gca()
 ax.tick_params(axis="x", labelrotation=45)
 
 # Set the title and labels for the axes of the plot.
-plt.title(
-    "Case Example: Top Tokens (Rejected Category)\n(Close this window to continue)"
-)
+plt.title("Top Tokens (Rejected Category)\n(Close this window to continue)")
 plt.xlabel("Token")
 plt.ylabel("Frequency")
 
